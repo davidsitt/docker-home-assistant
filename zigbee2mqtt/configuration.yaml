@@ -1,0 +1,11 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mosquitto
+  user: USER_DEFINED_IN_MOSQUITTO
+  password: PASSWORD_DEFINED_IN_MOSQUITTO
+serial:
+  port: /dev/ttyUSB0
+frontend:
+  port: 8080

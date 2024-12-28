@@ -1,0 +1,12 @@
+
+# Home Assistant
+homeAssistant/config/**
+
+# MQTT
+!mosquitto/config/mosquitto.conf
+
+
+# ZigBee2MQTT
+zigbee2mqtt/**
+!zigbee2mqtt/configuration.yaml
+
